@@ -1,3 +1,28 @@
+Controle de Servo Motor com Botões
+
+Este projeto utiliza um servo motor controlado por dois botões. Um botão aumenta a posição do servo motor, enquanto o outro diminui. É uma ótima maneira de aprender sobre controle de atuadores e leitura de entradas digitais com Arduino.
+
+Descrição
+
+Servo Motor: Um servo motor é utilizado para realizar movimentos em ângulos controlados.
+Botões: Dois botões permitem aumentar ou diminuir a posição do servo motor.
+Botão Aumentar: Aumenta a posição do servo em 1° até 180°.
+Botão Voltar: Diminui a posição do servo em 1° até 0°.
+
+Componentes Necessários
+Arduino (Uno, Mega, etc.)
+Servo motor
+Dois botões
+Resistores (opcional, para pull-down)
+Fios de conexão
+Conexões
+Conecte o fio de controle do servo motor à porta digital 2.
+Conecte um botão à porta digital 4 e ao GND.
+Conecte o outro botão à porta digital 7 e ao GND.
+
+Código
+cpp
+Copiar código
 // Biblioteca do servo motor
 #include <Servo.h>
 
@@ -38,3 +63,6 @@ void loop() {
     delay(15); // Aguarda um pouco para evitar múltiplas leituras
   }
 }
+
+Contribuições
+Contribuições são bem-vindas! Sinta-se à vontade para fazer um fork deste repositório, adicionar suas melhorias e enviar um pull request.
