@@ -53,3 +53,4 @@ void loop() {
     noTone(buzzer); // Para o som do buzzer
   }
 }
+![AlarmeComSensorPTR](https://github.com/user-attachments/assets/6c9fe738-101f-422e-b733-1089489fc4b1)
