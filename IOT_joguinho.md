@@ -43,16 +43,26 @@ Copy code
      |   Arduino Uno              |
      |                            |
      |  2  → Botão de controle    |
+     |                            |
      |  11 → RS (LCD)             |
-     |  9  → E (LCD)              |
+     |                            |
+     |  9  → E (LCD)              | 
+     |                            |
      |  6  → D4 (LCD)             |
+     |                            |
      |  5  → D5 (LCD)             |
+     |                            |
      |  4  → D6 (LCD)             |
+     |                            |
      |  3  → D7 (LCD)             |
+     |                            |
      |  GND → Pino RW (LCD)       |
+     |                            |
      |  5V  → Pino VDD (LCD)      |
-     |  GND → Pino VSS (LCD)      |
-     +---------------------------+
+     |                            |
+     |  GND → Pino VSS (LCD)      | 
+     |                            |       
+     +----------------------------+
 
 **Como Jogar**
 
