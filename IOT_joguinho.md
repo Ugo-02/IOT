@@ -11,14 +11,23 @@ Fios de conexão para montar o circuito
 **Ligações dos Componentes**
 
 Conexão do Display LCD (HD44780)
+
 Pino VSS (do LCD) → GND (do Arduino)
+
 Pino VDD (do LCD) → 5V (do Arduino)
+
 Pino V0 (do LCD) → Potenciômetro para controle de contraste (ou GND para contraste fixo)
+
 Pino RS (do LCD) → Pino 11 (Arduino)
+
 Pino RW (do LCD) → GND (permite somente escrita)
+
 Pino E (do LCD) → Pino 9 (Arduino)
+
 Pinos D4, D5, D6, D7 (do LCD) → Pinos 6, 5, 4, 3 (Arduino)
+
 Pino A (do LCD) → 5V (retroiluminação)
+
 Pino K (do LCD) → GND (retroiluminação)
 
 **Conexão do Botão**
