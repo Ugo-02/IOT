@@ -79,7 +79,9 @@ Colisão: O jogo detecta colisões quando o personagem encontra um obstáculo e 
 
 **Licença**
 
-Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Este projeto está licenciado sob a licença MIT. Veja o 
+arquivo LICENSE para mais detalhes.
+
 **Imagens e Capturas de Tela**
 
 ![arduino joguinho](https://github.com/user-attachments/assets/406cd622-e7a7-4d51-8695-4348b3689be3)
