@@ -340,4 +340,7 @@ Substitua seu_usuario: Não se esqueça de substituir seu_usuario pela sua conta
 Personalização: Sinta-se à vontade para adicionar mais informações que considerar relevantes, como instruções de configuração ou detalhes adicionais sobre o jogo.
 Imagens e Capturas de Tela: Considere adicionar imagens ou capturas de tela do jogo em ação para tornar a descrição mais atraente.
 
+![arduino joguinho](https://github.com/user-attachments/assets/406cd622-e7a7-4d51-8695-4348b3689be3)
+
+
 
