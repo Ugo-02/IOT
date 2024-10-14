@@ -399,6 +399,7 @@ void loop(){
   }
   delay(50);
 }
+**"Qualquer coisa joga no ChatGpt e pede pra ele reorganizar o código."**
 
 
 
