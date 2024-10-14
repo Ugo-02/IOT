@@ -1,14 +1,14 @@
 
 O código do jogo Super BIM Game para Arduino é um projeto que utiliza o LiquidCrystal e simula um jogo onde um personagem deve pular obstáculos usando um botão. O personagem é mostrado em um display LCD, e o jogo termina se o personagem colidir com um obstáculo. Abaixo seguem as instruções detalhadas para ligar e jogar o Super BIM Game:
 
-**Componentes Necessários**
+# Componentes Necessários
 
 1 Arduino Uno
 1 Display LCD com controlador HD44780
 1 Botão para controlar o personagem
 Fios de conexão para montar o circuito
 
-**Ligações dos Componentes**
+# Ligações dos Componentes
 
 Conexão do Display LCD (HD44780)
 
@@ -30,7 +30,7 @@ Pino A (do LCD) → 5V (retroiluminação)
 
 Pino K (do LCD) → GND (retroiluminação)
 
-**Conexão do Botão**
+# Conexão do Botão
 
 Um terminal do botão → Pino 2 (Arduino)
 Outro terminal do botão → GND
@@ -64,7 +64,7 @@ Copy code
      |                            |       
      +----------------------------+
 
-**Como Jogar**
+# Como Jogar
 
 Conecte os componentes conforme o esquema acima.
 Carregue o código no Arduino usando a IDE do Arduino.
@@ -77,19 +77,19 @@ Personagem: Representado por sprites que alternam entre correr e pular.
 Terreno: Gera blocos de obstáculos aleatoriamente no topo ou na parte inferior da tela.
 Colisão: O jogo detecta colisões quando o personagem encontra um obstáculo e para o jogo.
 
-**Licença**
+# Licença
 
 Este projeto está licenciado sob a licença MIT. Veja o 
 arquivo LICENSE para mais detalhes.
 
-**Imagens e Capturas de Tela**
+# Imagens e Capturas de Tela
 
 ![arduino joguinho](https://github.com/user-attachments/assets/406cd622-e7a7-4d51-8695-4348b3689be3)
 ![pulo png](https://github.com/user-attachments/assets/ce14fa0d-3554-4fa8-9129-d76a98de9a7c)
 ![arduino_game png](https://github.com/user-attachments/assets/e99633a4-97ea-460c-9ed5-ca9f5b570a2f)
 
 
-**Código:**
+# Código:
 
 #include <LiquidCrystal.h>
 
