@@ -86,6 +86,7 @@ arquivo LICENSE para mais detalhes.
 
 ![arduino joguinho](https://github.com/user-attachments/assets/406cd622-e7a7-4d51-8695-4348b3689be3)
 ![pulo png](https://github.com/user-attachments/assets/ce14fa0d-3554-4fa8-9129-d76a98de9a7c)
+![arduino_game png](https://github.com/user-attachments/assets/e99633a4-97ea-460c-9ed5-ca9f5b570a2f)
 
 
 **Código:**
