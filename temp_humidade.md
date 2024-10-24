@@ -1,4 +1,4 @@
-#Projeto de Tela LCD com Sensor de T emperatura e Umidade
+# Projeto de Tela LCD com Sensor de T emperatura e Umidade
 
 # Descrição do Projeto
 Este projeto utiliza uma tela LCD e um sensor de temperatura e umidade (DHT22) para exibir informações em tempo real.
