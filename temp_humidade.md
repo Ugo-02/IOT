@@ -56,9 +56,6 @@ GND -> GND
 Data -> Pino digital 2 (Arduino)
 
 # Código
-cpp
-
-Copiar
 #include <LiquidCrystal.h>
 #include <DHT.h>
 
