@@ -28,9 +28,6 @@ Pino Azul (B) -> Pino digital 11 (Arduino)
 Pino Ânodo Comum (C) -> Fonte de 5V (via resistor 220Ω)
 
 # Código
-cpp
-
-Copiar
 int redPin = 9;
 int greenPin = 10;
 int bluePin = 11;
