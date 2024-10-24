@@ -65,10 +65,6 @@ Pino positivo do buzzer -> Pino digital 8 (Arduino)
 Pino negativo do buzzer -> GND
 
 # Código
-
-cpp
-
-Copiar
 #include <LiquidCrystal.h>
 
 const int trigPin = 9;
