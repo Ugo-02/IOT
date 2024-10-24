@@ -42,9 +42,7 @@ Estrutura do Projeto
 Conectar o DHT11 ao pino digital 2 do Arduino.
 Conectar o display LCD aos pinos 7, 8, 9, 10, 11 e 12 do Arduino.
 
-# Código Exemplo:
-
-cpp
+# Código
 
 #include <DHT.h>
 #include <LiquidCrystal.h>
