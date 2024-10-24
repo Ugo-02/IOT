@@ -45,9 +45,6 @@ A -> 5V (via resistor 1kΩ)
 K -> GND
 
 # Código
-cpp
-
-Copiar
 #include <LiquidCrystal.h>
 
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
