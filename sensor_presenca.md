@@ -57,9 +57,6 @@ Trig -> Pino digital 9 (Arduino)
 Echo -> Pino digital 10 (Arduino)
 
 # Código
-cpp
-
-Copiar
 #include <LiquidCrystal.h>
 
 const int trigPin = 9;
