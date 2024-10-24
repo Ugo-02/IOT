@@ -1,0 +1,99 @@
+# Projeto de Tela LCD com Motor de Passo
+
+# Descrição do Projeto
+Este projeto utiliza uma tela LCD e um motor de passo para exibir informações e controlar o movimento do motor.
+
+# Materiais Necessários
+Tela LCD (16x2 ou 20x4)
+
+Motor de passo (com driver, por exemplo, ULN2003)
+
+Microcontrolador (Arduino, Raspberry Pi, etc.)
+
+Resistores (1kΩ)
+
+Potenciômetro (10kΩ) - para ajuste de contraste
+
+# Fios de conexão
+
+Breadboard
+
+Fonte de alimentação
+
+# Circuito
+Conecte os pinos da tela LCD ao microcontrolador da seguinte forma:
+
+VSS -> GND
+
+VDD -> 5V
+
+V0 -> Centro do potenciômetro
+
+RS -> Pino digital 12 (Arduino)
+
+RW -> GND
+
+E -> Pino digital 11 (Arduino)
+
+D4 -> Pino digital 5 (Arduino)
+
+D5 -> Pino digital 4 (Arduino)
+
+D6 -> Pino digital 3 (Arduino)
+
+D7 -> Pino digital 2 (Arduino)
+
+A -> 5V (via resistor 1kΩ)
+
+K -> GND
+
+Conecte o motor de passo ao driver e ao microcontrolador da seguinte forma:
+
+IN1 -> Pino digital 8 (Arduino)
+
+IN2 -> Pino digital 9 (Arduino)
+
+IN3 -> Pino digital 10 (Arduino)
+
+IN4 -> Pino digital 11 (Arduino)
+
+GND -> GND
+
+VCC do driver -> 5V
+
+# Código
+#include <LiquidCrystal.h>
+#include <Stepper.h>
+
+const int stepsPerRevolution = 200; // Número de passos por revolução para o motor de passo
+
+LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
+Stepper myStepper(stepsPerRevolution, 8, 9, 10, 11);
+
+void setup() {
+  lcd.begin(16, 2);
+  lcd.print("Stepper Motor");
+  myStepper.setSpeed(60); // Define a velocidade do motor de passo
+}
+
+void loop() {
+  // Roda o motor de passo 1 revolução no sentido horário
+  myStepper.step(stepsPerRevolution);
+  lcd.setCursor(0, 1);
+  lcd.print("Clockwise");
+  delay(1000);
+
+  // Roda o motor de passo 1 revolução no sentido anti-horário
+  myStepper.step(-stepsPerRevolution);
+  lcd.setCursor(0, 1);
+  lcd.print("Counterclockwise");
+  delay(1000);
+}
+
+# Instalação
+Conecte os componentes conforme o esquema do circuito.
+
+Carregue o código no microcontrolador utilizando o Arduino IDE ou outra plataforma compatível.
+
+# Uso
+A tela LCD exibirá mensagens enquanto o motor de passo gira no sentido horário e anti-horário.
