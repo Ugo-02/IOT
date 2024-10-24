@@ -1,0 +1,73 @@
+# LED RGBD Control Project
+
+# Descrição do Projeto
+Este projeto controla um LED RGB utilizando um microcontrolador (Arduino, Raspberry Pi, etc.). O objetivo é permitir que o usuário mude as cores do LED RGB através de um software.
+
+# Materiais Necessários
+LED RGB
+
+Resistores (220Ω)
+
+Microcontrolador (Arduino, Raspberry Pi, etc.)
+
+Fios de conexão
+
+Breadboard
+
+Fonte de alimentação
+
+Circuito
+Conecte os pinos do LED RGB ao microcontrolador da seguinte forma:
+
+Pino Vermelho (R) -> Pino digital 9 (Arduino)
+
+Pino Verde (G) -> Pino digital 10 (Arduino)
+
+Pino Azul (B) -> Pino digital 11 (Arduino)
+
+Pino Ânodo Comum (C) -> Fonte de 5V (via resistor 220Ω)
+
+# Código
+cpp
+
+Copiar
+int redPin = 9;
+int greenPin = 10;
+int bluePin = 11;
+
+void setup() {
+  pinMode(redPin, OUTPUT);
+  pinMode(greenPin, OUTPUT);
+  pinMode(bluePin, OUTPUT);
+}
+
+void loop() {
+  setColor(255, 0, 0); // Vermelho
+  delay(1000);
+  setColor(0, 255, 0); // Verde
+  delay(1000);
+  setColor(0, 0, 255); // Azul
+  delay(1000);
+  setColor(255, 255, 0); // Amarelo
+  delay(1000);
+  setColor(80, 0, 80); // Roxo
+  delay(1000);
+  setColor(0, 255, 255); // Ciano
+  delay(1000);
+}
+
+void setColor(int red, int green, int blue) {
+  analogWrite(redPin, red);
+  analogWrite(greenPin, green);
+  analogWrite(bluePin, blue);
+}
+
+# Instalação
+Conecte os componentes conforme o esquema do circuito.
+
+Carregue o código no microcontrolador utilizando o Arduino IDE ou outra plataforma compatível.
+
+# Uso
+Ao iniciar o microcontrolador, o LED RGB mudará de cor a cada segundo.
+
+Customize o código para criar seus próprios padrões de cores.
